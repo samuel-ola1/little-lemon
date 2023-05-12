@@ -1,9 +1,12 @@
 import React from 'react';
+import Dishes from '../components/Dishes';
+import Hero from '../components/Hero';
 
 const Home = () => {
   return (
     <main>
-        Hello This is Home
+      <Hero />
+      <Dishes />
     </main>
   )
 }

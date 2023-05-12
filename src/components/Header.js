@@ -19,7 +19,7 @@ const Header = () => {
               <img src={logoImage} alt="Logo" className='navbar-logo'/>
             </Link>
 
-              <ul className={`nav ${isMobile ? "nav-links-mobile" : "" }`} onClick={() => setIsMobile(!isMobile)}>
+              <ul className={`nav-links ${isMobile ? "nav-links-mobile" : "" }`} onClick={() => setIsMobile(!isMobile)}>
                   <li><Link to="/" className="home">HOME</Link></li>
                   <li><Link to="/" className='about'>ABOUT</Link></li>
                   <li><Link to="/" className='menu'>MENU</Link></li>

@@ -51,6 +51,10 @@ li {
   padding-right: 2em;
 }
 
+.grid {
+  display: grid;
+}
+
 header {
   background-color: white;
   max-height: 16rem;

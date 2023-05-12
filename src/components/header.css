@@ -3,19 +3,18 @@ nav {
     justify-content: space-between;
     align-items: center;
     min-height: 75px;
+    gap: 1rem;
 }
 
 .navbar-logo {
     height: 3.5rem;
 }
 
-nav ul {
+.nav-links {
     display: flex;
-}
-
-.nav {
     font-weight: bold;
     font-size: 1rem;
+    text-align: center;
     justify-content: space-between;
     align-items: center;
     gap: 1rem;
@@ -26,6 +25,19 @@ nav ul {
     display: none;
 }
 
+.nav-links a {
+    display: block;
+    padding: 0.5rem;
+}
+
+
+
+
+
+.nav-links a:hover,
+.nav-links a:focus {
+    background-color: #f4ce14;
+}
 
 
 @media screen and (max-width: 750px) {
@@ -33,7 +45,7 @@ nav ul {
         display: block;
     }
 
-    .nav {
+    .nav-links {
         display: none;
     }
 
