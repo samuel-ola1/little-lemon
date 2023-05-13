@@ -18,22 +18,57 @@ body {
   color: var(--text-color);
 }
 
+
+
 img {
   max-width: 100%;
 }
 
 /* TYPOGRAPHY */
 
+
 h1,h2 {
   font-family: 'Markazi Text', serif;
   font-weight: normal;
 }
 
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+p {
+  font-family: 'Karla', sans-serif;
+  font-size: 1rem;
+}
+
+
+.home {
+  font-weight: medium;
+}
+
+section .title{
+  font-size: rem;
+  font-weight: extra bold;
+}
+
+.card title {
+  font-size: 1.1rem;
+  font-weight: medium;
+}
+
+.card p {
+  line-height: 1.5;
+  max-width: 65ch;
+}
 
 
 a {
   text-decoration: none;
-  color: var(--text-color);
+  
 }
 
 li {
@@ -41,6 +76,14 @@ li {
 }
 
 /* LAYOUT */
+
+.btn {
+  border-radius: 10px;
+  color: #495E57;
+  background-color: #f4ce14;
+  padding: 7px 15px;
+  font-weight: bold;
+}
 
 .container {
   width: 100%;

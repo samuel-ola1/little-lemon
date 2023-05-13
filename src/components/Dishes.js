@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import greekSalad from "./assets/greek-salad.jpg";
 import bruschetta from "./assets/bruschetta.svg";
 import lemonDessert from "./assets/lemon-dessert.jpg";
-import Meal from './Meal';
+import MealCard from './MealCard';
 
 
 
@@ -36,11 +36,11 @@ const meals = [
 const Dishes = () => {
   return (
     <section>
-        <h3>This weeks specials</h3>
+        <h2 className='title'>This weeks specials</h2>
         <Link to="">Online Menu</Link>
         {
             meals.map((meal) => (
-                <Meal meal={meal} key={meal.name}/>
+                <MealCard meal={meal} key={meal.name}/>
             ))
         }
     </section>

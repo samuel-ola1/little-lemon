@@ -6,6 +6,10 @@ nav {
     gap: 1rem;
 }
 
+nav a  {
+    color: #495E57;;
+}
+
 .navbar-logo {
     height: 3.5rem;
 }

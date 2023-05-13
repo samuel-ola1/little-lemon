@@ -11,7 +11,7 @@ const TestimonialCard = ({customer}) => {
     const {image, fullName, rating, says} = customer;
 
   return (
-    <article>
+    <article className='card'>
         <img src={image} alt={fullName} />
       <h4>{fullName}</h4>
       <span>

@@ -45,7 +45,7 @@ const Testimonials = () => {
   return (
     <section>
         <div className="container">
-            <h3>Tales of Culinary Bliss Shared by Our Guests</h3>
+            <h2 className='title'>Tales of Culinary Bliss Shared by Our Guests</h2>
             {
                 customers.map((customer, index) => (
                     <TestimonialCard customer={customer} key={index}/>
