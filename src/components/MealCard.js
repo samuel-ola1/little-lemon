@@ -1,25 +1,27 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { Link } from 'react-router-dom';
 import { faMotorcycle } from '@fortawesome/free-solid-svg-icons';
+import "./mealcard.css";
 
 
 const Meal = ({meal}) => {
    const { name, price, description, image } = meal
 
   return (
-    <figure className='card'>
-        <div>
+    <article className='card meal-card'>
+        <div className="meal-card-image">
             <img src={image} alt={name} />
         </div>
-        <div>
+        <div className="meal-card-header">
             <h4 className='title'>{name}</h4>
             <span>{price}</span>
         </div>
         <div>
             <p>{description}</p>
-            <p>Order a delivery <FontAwesomeIcon icon={faMotorcycle} /> </p>
+            <Link>Order a delivery <FontAwesomeIcon icon={faMotorcycle} /> </Link>
         </div>
-    </figure>
+    </article>
   )
 }
 

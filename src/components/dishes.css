@@ -1,0 +1,43 @@
+.dishes {
+    margin-top: 6.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.dishes .dishes-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.meals-container {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 1.25rem;
+}
+
+
+
+@media (max-width: 750px) {
+    .dishes {
+        margin-top: 2.5rem;
+    }
+
+
+    .dishes .dishes-header {
+        flex-direction: column;
+
+    }
+
+    .meals-container {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+    }
+
+}
+
+@media (max-width: 570px) {
+    .meals-container {
+        grid-template-columns: 1fr;
+    }
+}

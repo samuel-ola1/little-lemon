@@ -4,7 +4,7 @@ import greekSalad from "./assets/greek-salad.jpg";
 import bruschetta from "./assets/bruschetta.svg";
 import lemonDessert from "./assets/lemon-dessert.jpg";
 import MealCard from './MealCard';
-
+import "./dishes.css";
 
 
 const meals = [
@@ -35,14 +35,20 @@ const meals = [
 
 const Dishes = () => {
   return (
-    <section>
-        <h2 className='title'>This weeks specials</h2>
-        <Link to="">Online Menu</Link>
-        {
-            meals.map((meal) => (
-                <MealCard meal={meal} key={meal.name}/>
-            ))
-        }
+    <section className="dishes">
+      <div className="container">
+        <div className="dishes-header">
+          <h2 className='title'>This weeks specials</h2>
+          <Link to="" className="btn">Online Menu</Link>
+        </div>
+        <div className="meals-container grid">
+          {
+              meals.map((meal) => (
+                  <MealCard meal={meal} key={meal.name}/>
+              ))
+          }
+        </div>
+      </div>
     </section>
   )
 }
