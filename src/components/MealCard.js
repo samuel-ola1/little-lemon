@@ -17,7 +17,7 @@ const Meal = ({meal}) => {
             <h4 className='title'>{name}</h4>
             <span>{price}</span>
         </div>
-        <div>
+        <div className="meal-card-footer">
             <p>{description}</p>
             <Link>Order a delivery <FontAwesomeIcon icon={faMotorcycle} /> </Link>
         </div>

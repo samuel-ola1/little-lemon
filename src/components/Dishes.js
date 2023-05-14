@@ -41,7 +41,7 @@ const Dishes = () => {
           <h2 className='title'>This weeks specials</h2>
           <Link to="" className="btn">Online Menu</Link>
         </div>
-        <div className="meals-container grid">
+        <div className="meals-container">
           {
               meals.map((meal) => (
                   <MealCard meal={meal} key={meal.name}/>

@@ -1,0 +1,53 @@
+.meal-card {
+    min-height: 30rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #EDEFEE;
+    padding-bottom: 2rem ;
+}
+
+
+.meal-card img {
+    width: 100%;
+    /* flex-basis: 50%; */
+    height: 12rem;
+    object-fit: cover;
+    margin-bottom: 0.8rem;
+    transition: all ease-in-out 0.3s;
+}
+
+.meal-card:hover .meal-card-image img {
+    transform: scale(1.1);
+}
+
+.meal-card-header,
+.meal-card-footer {
+    padding: 0 1rem;
+}
+
+.meal-card-header {
+    display: flex;
+    gap: 1.25rem;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+}
+
+.meal-card-header span {
+    font-weight: bold;
+    color: #ED9972;
+}
+
+
+.meal-card-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+
+.meal-card-footer svg {
+    margin-left: 0.4rem;
+}
