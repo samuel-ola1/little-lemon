@@ -13,18 +13,16 @@ import {
   faYoutube,
   faInstagram
 } from "@fortawesome/free-brands-svg-icons"
-// import "./footer.css";
+import "./footer.css";
 
 
 
 const Footer = () => {
   return (
     <footer className="footer">
-      <div className='container'>
-          {/* <img src={footerLogo} alt="logo"/> */}
-      
-
-        <div>
+      <div className='container grid'>
+          <img src={footerLogo} alt="logo" className="footer-logo"/>
+        <div className="footer-nav">
             <h4>Navigate the site</h4>
             <ul>
               <li><Link to="/">Home</Link></li>
@@ -35,7 +33,7 @@ const Footer = () => {
               <li><Link to="/">Login</Link></li>
             </ul>
         </div>
-        <div>
+        <div className="contact">
           <h4>Contact Us</h4>
           <address>
             <p><FontAwesomeIcon icon={faLocationDot} /> 789 Maple Street, Portland, Oregon, 97201.</p>
@@ -44,7 +42,7 @@ const Footer = () => {
           </address>
         </div>
 
-        <div>
+        <div className="socials">
           <h4>Connect with us on social Media</h4>
           <a href="www.twitter.com" target="_blank"><FontAwesomeIcon icon={faTwitter} /></a>
           <a href="wwww.facebook" target="_blank"><FontAwesomeIcon icon={faFacebook} /></a>
