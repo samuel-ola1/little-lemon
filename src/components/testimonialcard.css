@@ -1,0 +1,21 @@
+.testimonial-card {
+    background-color: #fff;
+    padding: 1rem;
+    /* height: 100%; */
+    border-radius: 10px;
+}
+
+.testimonial-card img {
+    /* width: 9rem; */
+    margin: 0 auto 0.5rem auto;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.testimonial-card h4 {
+    margin: 0 auto 1rem auto;
+}
+  
+.testimonial-card span {
+    color: #F4CE14;
+}

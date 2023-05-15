@@ -4,6 +4,7 @@ import customer2 from './assets/customer2.jpg';
 import customer3 from './assets/customer3.jpg';
 import customer4 from './assets/customer4.jpg';
 import TestimonialCard from './TestimonialCard';
+import "./testimonials.css";
 
 
 const customers = [
@@ -43,14 +44,16 @@ const Testimonials = () => {
 
 
   return (
-    <section>
-        <div className="container">
+    <section className="testimonials">
+        <div className="container grid">
             <h2 className='title'>Tales of Culinary Bliss Shared by Our Guests</h2>
-            {
-                customers.map((customer, index) => (
-                    <TestimonialCard customer={customer} key={index}/>
-                ))
-            }
+
+              {
+                  customers.map((customer, index) => (
+                      <TestimonialCard customer={customer} key={index}/>
+                  ))
+              }
+            
         </div>
 
 
