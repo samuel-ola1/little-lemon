@@ -43,12 +43,34 @@
 
 .contact {
     grid-column: 3;
-}
+} 
 
-.socials {
+ .socials {
     grid-column: 4;
 }
 
 .socials svg {
     margin-right: 1rem;
+}
+
+@media (max-width: 767px) {
+    .footer .container {
+        grid-template-columns: repeat(2, auto); 
+        grid-auto-rows: auto;
+        gap: 20px; /* Add spacing between sections */
+        justify-items: center; 
+        align-items: center;
+    }
+
+    .footer-logo {
+        grid-column: span 1;
+
+    }
+
+    .contact,
+    .socials {
+        grid-column: span 2;
+    }
+
+    
 }

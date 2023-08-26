@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import resturant from "./assets/restaurantfood.jpg";
-import "./hero.css"
+import restaurant from "./assets/restaurantfood.jpg";
+import "./hero.css";
 
 const Hero = () => {
   return (
@@ -14,7 +14,7 @@ const Hero = () => {
               <Link to="/reservation" className="btn btn-primary">Reserve a table</Link>
             </div>
 
-              <img src={resturant} alt='Resturant' className="hero-image"/>
+              <img src={restaurant} alt='Resturant' className="hero-image"/>
         </div>
     </section>
   )
