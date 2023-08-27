@@ -1,7 +1,7 @@
 import React from 'react';
 import mario from "./assets/Mario and Adrian A.jpg";
 import adrian from "./assets/Mario and Adrian b.jpg";
-import "./history.css"
+import "./styles/history.css"
 
 
 

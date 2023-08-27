@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import logoImage from "./assets/logo.svg";
 import { faX,faBars } from '@fortawesome/free-solid-svg-icons';
 
-import  "./header.css";
+import  "./styles/header.css";
 
 const Header = () => {
 

@@ -13,8 +13,7 @@ import {
   faYoutube,
   faInstagram
 } from "@fortawesome/free-brands-svg-icons"
-import "./footer.css";
-
+import "./styles/footer.css";
 
 
 const Footer = () => {

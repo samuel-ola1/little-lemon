@@ -4,7 +4,7 @@ import greekSalad from "./assets/greek-salad.jpg";
 import bruschetta from "./assets/bruschetta.svg";
 import lemonDessert from "./assets/lemon-dessert.jpg";
 import MealCard from './MealCard';
-import "./dishes.css";
+import "./styles/dishes.css";
 
 
 const meals = [

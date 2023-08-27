@@ -4,7 +4,7 @@ import customer2 from './assets/customer2.jpg';
 import customer3 from './assets/customer3.jpg';
 import customer4 from './assets/customer4.jpg';
 import TestimonialCard from './TestimonialCard';
-import "./testimonials.css";
+import "./styles/testimonials.css";
 
 
 const customers = [
