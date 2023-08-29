@@ -1,6 +1,5 @@
 .res-container {
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.42), rgba(0, 0, 0, 0.73)), url("../components/assets/booking-page.jpg");
-    width: 100%;
     background-size: cover;
 }
 
@@ -8,10 +7,11 @@
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
+    width: 95%;
     margin: 0px auto;
     padding: 80px 0;
     color: white;
-    gap: 50px;
+    gap: 3rem;
 }
 
 .res-intro {
@@ -32,7 +32,7 @@
     background-color: #EDEFEE;
     padding: 1rem 1.5rem ;
     text-align: left;
-    min-width: 25rem;
+    min-width: 20rem;
     color: #495E57;;
 }
 
@@ -73,3 +73,46 @@ input {
 
 
 
+.options {
+    padding: 10px;
+    border: 1px solid rgba(51, 51, 51, 0.3);
+}
+
+select {
+    padding: 10px;
+    outline: none;
+    border: none;
+    /* width: ; */
+    font-size: 15px;
+    color: #495E57;
+}
+
+.reserve-btn {
+    width: 100%;
+    padding: 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+.reserve-btn:hover {
+    background-color: #495E57;
+    transition: 0.3s;
+    color: #fff;
+}
+
+.error-msg {
+    color: red;
+    margin-top: 5px;
+    font-style: italic;
+    font-size: 0.9rem;
+}
+
+
+@media  screen and (max-width: 1024px) {
+    .res-content {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
