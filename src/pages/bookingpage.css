@@ -109,7 +109,7 @@ select {
 }
 
 
-@media  screen and (max-width: 1024px) {
+@media (max-width: 1024px) {
     .res-content {
         flex-direction: column;
         align-items: center;
