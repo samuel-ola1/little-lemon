@@ -5,5 +5,8 @@
         "elit",
         "quaerat",
         "restaurantfood"
-    ]
+    ],
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    }
 }

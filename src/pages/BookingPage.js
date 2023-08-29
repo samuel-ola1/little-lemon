@@ -5,7 +5,8 @@ import "./bookingpage.css";
 const BookingPage = () => {
   return (
     <main className='res-container'>
-      <div className="res-content">
+      <div className="container">
+        <div className="res-content">
             <div className="">
                 <h2 className='title'>Experience the perfect balance of tradition and luxury.</h2>
                 <p>At Little Lemon, we take great pride in providing our customers with the greatest luxurious experience with a touch of <em>tradition</em>.</p>
@@ -16,7 +17,9 @@ const BookingPage = () => {
                 <p>Please fill in and submit form to book your reservation at Little Lemon.</p>
                 <BookingForm />
             </div>
+        </div>
       </div>
+     
     </main>
   )
 }
